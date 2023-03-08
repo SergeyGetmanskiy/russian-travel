@@ -1,4 +1,4 @@
 # Проект: Путешествие по России
 
 ### В проекте применены приемы адаптивной и отзывчивой верстки. 
-# russian-travel
+# ссылка на проект https://sergeygetmanskiy.github.io/russian-travel/
