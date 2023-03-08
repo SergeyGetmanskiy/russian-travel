@@ -1,0 +1,26 @@
+.cover {
+    margin: 0;
+    flex-direction: column;
+    text-decoration: none;
+    align-items: center;
+    position: relative;
+    cursor: url(../../images/pointer.png) 10 2, default;
+}
+
+.cover:hover > .cover__background {
+    opacity: .3;
+    transition: opacity 300ms ease-in-out;
+}
+
+@media (max-width: 1023px) {
+    .cover {
+        max-width: 768px;
+    }
+}
+
+@media (max-width: 767px) {
+    .cover {
+        width: 100%;
+    }
+}
+

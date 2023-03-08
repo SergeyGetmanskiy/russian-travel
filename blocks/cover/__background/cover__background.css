@@ -1,0 +1,7 @@
+.cover__background {
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    opacity: .8;
+}
+

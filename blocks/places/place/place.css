@@ -1,0 +1,35 @@
+.place {
+    margin: 0 auto 80px;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: calc(50% - 32px) 1fr;
+    grid-template-rows: auto;
+    gap: 48px 40px;
+}
+
+.place:last-of-type {
+    margin: 0 auto 92px;
+}
+
+@media (max-width: 1023px) {
+    .place {
+        margin: 0 auto 73px;  
+    }
+    .place:last-of-type {
+        margin: 0 auto 90px;
+    }
+    
+}
+
+@media (max-width: 767px) {
+    .place {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0 auto 50px; 
+    }
+    .place:last-of-type {
+        margin: 0 auto 66px;
+    }
+}

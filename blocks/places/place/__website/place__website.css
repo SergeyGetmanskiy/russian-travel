@@ -1,0 +1,20 @@
+.place__website {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: start;
+    justify-content: end;
+}
+
+@media (max-width: 767px) {
+    .place__website {
+        max-width: 288px;
+    }
+    
+}
+
+@media (max-width: 767px) {
+    .place__website {
+        padding-left: 16px;
+    }
+    
+}

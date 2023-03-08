@@ -1,0 +1,25 @@
+.cover__card {
+    position: absolute;
+    max-width: 560px;
+    top: 33%;
+}
+
+@media (max-width: 1279px) {
+    .cover__card {
+        top: 30%;
+    } 
+}
+
+@media (max-width: 1023px) {
+    .cover__card {
+        top: 24%;
+    } 
+}
+
+@media (max-width: 767px) {
+    .cover__card {
+        max-width: 288px;
+        top: 17%;
+    }
+    
+}

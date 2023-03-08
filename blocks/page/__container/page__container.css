@@ -1,0 +1,9 @@
+.page__container {
+    padding: 0 48px;
+}
+
+@media (max-width: 1023px) {
+    .page__container {
+        padding: 0;
+    }
+}

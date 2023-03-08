@@ -1,0 +1,13 @@
+.header__lang-links {
+    display: flex;
+    padding-bottom: 6px;
+    align-items: flex-end;
+   
+}
+
+@media (max-width: 767px) {
+    .header__lang-links {
+        padding-bottom: 8px;
+    }
+    
+}

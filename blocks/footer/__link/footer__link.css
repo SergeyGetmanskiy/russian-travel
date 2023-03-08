@@ -1,0 +1,23 @@
+.footer__link {
+    margin: 0;
+    padding-right: 18px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.12;
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: url(../../../images/pointer.png) 10 2, default;
+}
+
+.footer__link:last-of-type {
+    padding-right: 0;
+}
+
+@media (max-width: 767px) {
+    .footer__link {
+        font-size: 24px;
+        line-height: 1;
+        padding-bottom: 32px;
+    }
+    
+}
