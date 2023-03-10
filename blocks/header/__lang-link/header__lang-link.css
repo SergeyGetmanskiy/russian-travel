@@ -4,24 +4,17 @@
     line-height: 1.17;
     color: #FFFFFF;
     margin: 0;
-    padding-right: 18px;
     text-decoration: none;
-
 }
 
-.header__lang-link:active {
-    text-decoration: underline;
-
-}
-
-.header__lang-link:last-of-type {
-    padding-right: 0;
+.header__lang-link:hover {
+    cursor: url(../../../images/pointer.png) 10 2, default;
+    opacity: .8;
 }
 
 @media (max-width: 767px) {
     .header__lang-link {
         font-size: 18px;
         line-height: 1.11;
-    }
-    
+    } 
 }

@@ -1,25 +1,17 @@
 .cover__card {
-    position: absolute;
-    max-width: 560px;
-    top: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 32px;
+    cursor: url(../../../images/pointer.png) 10 2, default;  
 }
 
-@media (max-width: 1279px) {
-    .cover__card {
-        top: 30%;
-    } 
-}
 
-@media (max-width: 1023px) {
+@media (max-width: 424px) {
     .cover__card {
-        top: 24%;
-    } 
-}
+        row-gap: 16px;
+        padding-top: 8px;
 
-@media (max-width: 767px) {
-    .cover__card {
-        max-width: 288px;
-        top: 17%;
     }
     
 }

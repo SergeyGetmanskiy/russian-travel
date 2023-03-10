@@ -1,7 +1,8 @@
 .places {
     max-width: 984px;
     flex-direction: column;
-    margin: 92px auto 0;
+    margin: 0 auto;
+    row-gap: 80px;
 }
 
 @media (max-width: 1279px) {
@@ -15,12 +16,23 @@
     
     .places {
         max-width: 720px;
+        row-gap: 71px;
     }
 }
 
 @media (max-width: 767px) {
     
     .places {
+        max-width: 425px;
+        padding: 0;
+        row-gap: 71px;
+    }
+}
+
+@media (max-width: 424px) {
+    
+    .places {
         max-width: 320px;
+        row-gap: 50px;
     }
 }

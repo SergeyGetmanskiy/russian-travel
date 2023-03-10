@@ -1,0 +1,15 @@
+.place__title_line-break {
+    white-space: normal;
+}
+
+@media (max-width: 1023px) {
+    .place__title_line-break {
+        white-space: pre-wrap;
+    }
+}
+@media (max-width: 767px) {
+    .place__title_line-break {
+        white-space: normal;
+    }
+    
+}

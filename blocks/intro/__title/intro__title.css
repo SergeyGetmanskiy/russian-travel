@@ -14,3 +14,10 @@
     }
     
 }
+
+@media (max-width: 424px) {
+    .intro__title {
+        padding-right: 40px;
+    }
+    
+}

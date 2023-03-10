@@ -3,6 +3,7 @@
     flex-flow: column nowrap;
     align-items: start;
     justify-content: end;
+    row-gap: 12px;
 }
 
 @media (max-width: 767px) {
@@ -15,6 +16,7 @@
 @media (max-width: 767px) {
     .place__website {
         padding-left: 16px;
+        row-gap: 13px;
     }
     
 }

@@ -1,15 +1,16 @@
 .cover {
-    margin: 0;
     flex-direction: column;
-    text-decoration: none;
-    align-items: center;
-    position: relative;
-    cursor: url(../../images/pointer.png) 10 2, default;
+    max-width: 1184px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-align: center;
 }
 
-.cover:hover > .cover__background {
-    opacity: .3;
-    transition: opacity 300ms ease-in-out;
+@media (max-width: 1279px) {
+    .cover {
+        max-width: 1024px;
+        padding: 0;
+    }
 }
 
 @media (max-width: 1023px) {
