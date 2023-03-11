@@ -6,10 +6,3 @@
     line-height: 1.63;
     color: #FFFFFF;
 }
-
-@media (max-width: 767px) {
-    .intro__text {
-        min-height: 520px;
-    }
-    
-}
