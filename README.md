@@ -9,6 +9,8 @@
 * Абсолютное позиционирование текстового блока на фоновой картинке при сохранении "резиновости".
 * Hover: эффект по фоновой картинке.
 * Использование grid-layout и flexbox верстки.
+  
+Стек: HTML5, CSS3
 
 [Cсылка на проект](https://sergeygetmanskiy.github.io/russian-travel/ "russian-travel")
 
